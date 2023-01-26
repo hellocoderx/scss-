@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 span {
+  text-align: end;
+  background-color: rgba(165, 42, 42, 0.08);
+  padding: 12px;
+}
+
+h1 {
+  font-size: 200px;
+  text-align: center;
+  color: coral;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 span {
+  color: yellowgreen;
+}
+
+p {
+  font-size: 100px;
+  text-align: center;
+  color: sandybrown;
+}
+p span {
+  color: rgba(137, 43, 226, 0.63);
+  font-weight: 600;
+  padding: 12px;
+  border-radius: 26px;
+}
+p span:hover {
+  background-color: goldenrod;
+  color: wheat;
+}/*# sourceMappingURL=style.css.map */

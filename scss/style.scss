@@ -1,0 +1,45 @@
+// scss file cannect file src 
+@use 'variable';
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+// card mention 
+%card {
+    text-align: end;
+    background-color: rgba(165, 42, 42, 0.08);
+    padding: 12px;
+}
+
+// scss variable  use sambole $
+$bg-primary:blue;
+$bg-left:120px 120px;
+h1 {
+    font-size: 200px;
+    text-align: center;
+    color: coral;
+    // margin: $bg-left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    span {
+        color: yellowgreen;
+        @extend %card;
+    }
+}
+
+p {
+    font-size: 100px;
+    text-align: center;
+    color: sandybrown;
+    span {
+        color: rgba(137, 43, 226, 0.63);
+        font-weight: 600;
+        padding: 12px;
+        border-radius: 26px;
+        &:hover {
+            background-color: goldenrod;
+            color: $hello;
+            font-size: $font-size1;
+        }
+    }
+}
